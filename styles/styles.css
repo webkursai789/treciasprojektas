@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 804px;
+    margin: auto;
+
+
+}
+
+.logo {
+    height: 65px;
+    background-color: #ffffff;
+
+}
+
+.logo .image {
+    background-image: url("../IMG/generic-logo2.png");
+    height: 55px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+.menu {
+    background-color: #152733;
+    height: 50px;
+    margin-bottom: 16px;
+
+}
+
+.menu ul {
+    float: left;
+}
+
+.menu ul li {
+    padding-top: 17px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Tahoma", serif;
+}
+
+.badge {
+    display: inline-block;
+    background: #344245;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.material-icons {
+    float: right;
+    background-position: bottom;
+    padding: 8px 6px;
+}
+
+
+.headerimage-container {
+    height: 290px;
+    background-color: #9fbc2e;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.headerimage-container h1 {
+
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+
+}
+
+.text-content {
+
+    width: 32%;
+    margin-right: 12px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-bottom: 14px;
+}
+
+.text-content:last-of-type {
+    margin-right: 0px;
+}
+
+
+.text-content h2 {
+    display: block;
+    font-family: "Serif";
+    font-size: 25px;
+    margin-bottom: 14px;
+    margin-top: 26px;
+    margin-left: 18px;
+}
+
+
+.text-content p {
+    font-size: 12px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
+.columncontent {
+    height: 274px;
+    background-color: #ffffff;
+
+}
+
+
+.firstcolumn {
+    float: left;
+    width: 484px;
+    height: 274px;
+    padding-left: 15px;
+    padding-right: 22px;
+
+}
+
+
+.secondcolumn {
+    width: 235px;
+    float: right;
+}
+
+.menu2 ul li {
+    display: block;
+    background-color: #e8e8e8;
+    margin-right: 15px;
+    padding: 16px 16px;
+
+
+}
+
+.menu2 ul {
+
+}
+
+.secondbadge {
+    float: right;
+    display: inline-block;
+    background: #d8d8d8;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.columncontent h2 {
+    display: block;
+    font-family: "Serif";
+    font-size: 25px;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    margin-left: 12px;
+
+}
+
+
+.columncontent p {
+    font-size: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+
+.gallery-container {
+    padding-top: 25px;
+
+}
+
+.gallery-container h1 {
+
+    font-family: "Serif";
+    margin-bottom: 18px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.gallery-images .image {
+    display: inline-block;
+}
+
+
+.footer {
+    background-color: white;
+    height: 49px;
+    margin-top: 41px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer-text1 p {
+    padding-left: 12px;
+    padding-top: 16px;
+}
+
+.footer-text2 p {
+    float: right;
+    padding-right: 12px;
+}
+
+.empty {
+    float: bottom;
+    height: 10px;
+    background-color: white;
+    padding-top: 15px;
+}
